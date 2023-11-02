@@ -5,8 +5,8 @@
  */
 
 const app = require('../dist/app')
-var debug = require('debug')('cloudinary-practice:server');
-var http = require('http');
+const debug = require('debug')('cloudinary-practice:server');
+const http = require('http');
 
 /**
  * Get port from environment and store in Express.
