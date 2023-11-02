@@ -2,4 +2,8 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  form(action='/upload' method='POST')
+    label Image
+    input(type='file')
+    button(type='submit') Submit
+
